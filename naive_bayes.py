@@ -26,7 +26,7 @@ def naive_bayes_train(train_data, train_labels, params):
     # TODO: INSERT YOUR CODE HERE TO LEARN THE PARAMETERS FOR NAIVE BAYES (USING LAPLACE ESTIMATE)
 
     # for storing conditional probability based on different classes, initially 0
-    cond_prob = np.zeros((num_classes, d, 2))# here cols = 2 is selected because its binary classification (2 features) 
+    cond_prob = np.zeros((num_classes, d, 2))
     
     #here i is a particular label
     for i in range(num_classes):
